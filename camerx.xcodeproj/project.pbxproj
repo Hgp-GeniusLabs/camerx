@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAC704E4BE4B824A762938E /* Pods_camerxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D306B2E6DCD5AE57F895979 /* Pods_camerxTests.framework */; };
+		8EB28344B899413E7440BD9F /* Pods_camerx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2DB15D656D2BA91BD367BD /* Pods_camerx.framework */; };
+		AA6AB7346F65CB756B7E1451 /* Pods_camerxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A3B4CECC12C050AF17B663 /* Pods_camerxUITests.framework */; };
+		DF689E2C2105B14E0056361E /* sign-check-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E2A2105B14E0056361E /* sign-check-icon.png */; };
+		DF689E2D2105B14E0056361E /* 450px-White_X_in_red_background.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E2B2105B14E0056361E /* 450px-White_X_in_red_background.svg.png */; };
+		DF689E2F2105B7760056361E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF689E2E2105B7760056361E /* GoogleService-Info.plist */; };
+		DF689E392105BE910056361E /* signUp_viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF689E382105BE910056361E /* signUp_viewController.swift */; };
+		DF689E3B2105BEA50056361E /* login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF689E3A2105BEA50056361E /* login_ViewController.swift */; };
+		DF689E3F21064D470056361E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E3C21064D460056361E /* red.png */; };
+		DF689E4021064D470056361E /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E3D21064D470056361E /* blue.png */; };
+		DF689E4121064D470056361E /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E3E21064D470056361E /* yellow.png */; };
+		DF689E4321064EBF0056361E /* yellow-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = DF689E4221064EBE0056361E /* yellow-1 (dragged).tiff */; };
+		DF689E46210651BA0056361E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E44210651BA0056361E /* red.png */; };
+		DF689E47210651BA0056361E /* blue-1 (dragged).tiff in Resources */ = {isa = PBXBuildFile; fileRef = DF689E45210651BA0056361E /* blue-1 (dragged).tiff */; };
+		DF689E4B2106885A0056361E /* bttrblu.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E48210688530056361E /* bttrblu.png */; };
+		DF689E4C2106885A0056361E /* bttrrd.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E49210688540056361E /* bttrrd.png */; };
+		DF689E4D2106885A0056361E /* bttryllw.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E4A210688590056361E /* bttryllw.png */; };
+		DF689E51210689290056361E /* bstrd.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E4E210689280056361E /* bstrd.png */; };
+		DF689E52210689290056361E /* bsttllw.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E4F210689280056361E /* bsttllw.png */; };
+		DF689E53210689290056361E /* bstblu.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E50210689290056361E /* bstblu.png */; };
+		DF689E5521068A1C0056361E /* bbby.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E5421068A1B0056361E /* bbby.png */; };
+		DF689E5721068A550056361E /* bbby.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E5621068A550056361E /* bbby.png */; };
+		DF689E5921068B920056361E /* bluew.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E5821068B920056361E /* bluew.png */; };
+		DF689E5B21068C160056361E /* blueww.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E5A21068C150056361E /* blueww.png */; };
+		DF689E5D21068C960056361E /* rdrdrd.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E5C21068C960056361E /* rdrdrd.png */; };
+		DF689E5F21068D250056361E /* yllllllllw.png in Resources */ = {isa = PBXBuildFile; fileRef = DF689E5E21068D250056361E /* yllllllllw.png */; };
+		DF6E6D91210786850049BAB1 /* instagram_gradient_wallpaper_AW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6E6D90210786840049BAB1 /* instagram_gradient_wallpaper_AW.jpg */; };
+		DF6E6D93210786D00049BAB1 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF6E6D92210786CF0049BAB1 /* images.jpeg */; };
+		DF6E6D952107A94B0049BAB1 /* horizontalline.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6E6D942107A94B0049BAB1 /* horizontalline.png */; };
+		DF6E6D982107AC390049BAB1 /* -Email.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6E6D962107AC380049BAB1 /* -Email.png */; };
+		DF6E6D992107AC390049BAB1 /* 111588_password_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6E6D972107AC380049BAB1 /* 111588_password_512x512.png */; };
+		DF6E6D9B2107B30A0049BAB1 /* Screen Shot 2018-07-24 at 12.18.11 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6E6D9A2107B3090049BAB1 /* Screen Shot 2018-07-24 at 12.18.11 PM.png */; };
+		DF823302210301CA001BA094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823301210301CA001BA094 /* AppDelegate.swift */; };
+		DF823304210301CA001BA094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823303210301CA001BA094 /* ViewController.swift */; };
+		DF823307210301CA001BA094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF823305210301CA001BA094 /* Main.storyboard */; };
+		DF823309210301D7001BA094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF823308210301D7001BA094 /* Assets.xcassets */; };
+		DF82330C210301D7001BA094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF82330A210301D7001BA094 /* LaunchScreen.storyboard */; };
+		DF823317210301D8001BA094 /* camerxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823316210301D8001BA094 /* camerxTests.swift */; };
+		DF823322210301D8001BA094 /* camerxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF823321210301D8001BA094 /* camerxUITests.swift */; };
+		DF82333021030A17001BA094 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF82332F21030A17001BA094 /* PreviewViewController.swift */; };
+		DF8F85D0210913CC000C4806 /* flip_camera-512.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8F85CF210913CB000C4806 /* flip_camera-512.png */; };
+		DF8F85D221091432000C4806 /* ede.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8F85D121091431000C4806 /* ede.png */; };
+		DF8F85D421091592000C4806 /* qwe.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8F85D321091591000C4806 /* qwe.png */; };
+		DF8F85D6210A4377000C4806 /* LogoMakr_9mRlok.png in Resources */ = {isa = PBXBuildFile; fileRef = DF8F85D5210A4377000C4806 /* LogoMakr_9mRlok.png */; };
+		DFCBBCE9210D0DE40089C124 /* yellowgradibtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCBBCE6210D0DE00089C124 /* yellowgradibtn.png */; };
+		DFCBBCEA210D0DE40089C124 /* blugradibtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCBBCE7210D0DE10089C124 /* blugradibtn.png */; };
+		DFCBBCEB210D0DE40089C124 /* redgradibtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCBBCE8210D0DE30089C124 /* redgradibtn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF823313210301D8001BA094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8232F6210301CA001BA094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8232FD210301CA001BA094;
+			remoteInfo = camerx;
+		};
+		DF82331E210301D8001BA094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8232F6210301CA001BA094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8232FD210301CA001BA094;
+			remoteInfo = camerx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC7D0EF594B9DF93848F3D2 /* Pods-camerx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camerx.release.xcconfig"; path = "Pods/Target Support Files/Pods-camerx/Pods-camerx.release.xcconfig"; sourceTree = "<group>"; };
+		19ED6AAA9B3A7543FDDAF1E8 /* Pods-camerxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camerxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-camerxTests/Pods-camerxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C47BF594AF880641A5AA9FD /* Pods-camerxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camerxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-camerxUITests/Pods-camerxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2DB15D656D2BA91BD367BD /* Pods_camerx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camerx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D306B2E6DCD5AE57F895979 /* Pods_camerxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camerxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B1D9388BBB3746750A55D5 /* Pods-camerxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camerxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-camerxUITests/Pods-camerxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72A3B4CECC12C050AF17B663 /* Pods_camerxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camerxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DDBF1BAC5BD5565D9A6CBD /* Pods-camerxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camerxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-camerxTests/Pods-camerxTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF689E2A2105B14E0056361E /* sign-check-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign-check-icon.png"; path = "../../sign-check-icon.png"; sourceTree = "<group>"; };
+		DF689E2B2105B14E0056361E /* 450px-White_X_in_red_background.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "450px-White_X_in_red_background.svg.png"; path = "../../450px-White_X_in_red_background.svg.png"; sourceTree = "<group>"; };
+		DF689E2E2105B7760056361E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF689E382105BE910056361E /* signUp_viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp_viewController.swift; sourceTree = "<group>"; };
+		DF689E3A2105BEA50056361E /* login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_ViewController.swift; sourceTree = "<group>"; };
+		DF689E3C21064D460056361E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../red.png; sourceTree = "<group>"; };
+		DF689E3D21064D470056361E /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../../blue.png; sourceTree = "<group>"; };
+		DF689E3E21064D470056361E /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellow.png; path = ../../yellow.png; sourceTree = "<group>"; };
+		DF689E4221064EBE0056361E /* yellow-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "yellow-1 (dragged).tiff"; path = "../../yellow-1 (dragged).tiff"; sourceTree = "<group>"; };
+		DF689E44210651BA0056361E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../red.png; sourceTree = "<group>"; };
+		DF689E45210651BA0056361E /* blue-1 (dragged).tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "blue-1 (dragged).tiff"; path = "../../blue-1 (dragged).tiff"; sourceTree = "<group>"; };
+		DF689E48210688530056361E /* bttrblu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bttrblu.png; path = ../../bttrblu.png; sourceTree = "<group>"; };
+		DF689E49210688540056361E /* bttrrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bttrrd.png; path = ../../bttrrd.png; sourceTree = "<group>"; };
+		DF689E4A210688590056361E /* bttryllw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bttryllw.png; path = ../../bttryllw.png; sourceTree = "<group>"; };
+		DF689E4E210689280056361E /* bstrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bstrd.png; path = ../../bstrd.png; sourceTree = "<group>"; };
+		DF689E4F210689280056361E /* bsttllw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bsttllw.png; path = ../../bsttllw.png; sourceTree = "<group>"; };
+		DF689E50210689290056361E /* bstblu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bstblu.png; path = ../../bstblu.png; sourceTree = "<group>"; };
+		DF689E5421068A1B0056361E /* bbby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bbby.png; path = ../../bbby.png; sourceTree = "<group>"; };
+		DF689E5621068A550056361E /* bbby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bbby.png; path = ../../bbby.png; sourceTree = "<group>"; };
+		DF689E5821068B920056361E /* bluew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluew.png; path = ../../bluew.png; sourceTree = "<group>"; };
+		DF689E5A21068C150056361E /* blueww.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueww.png; path = ../../blueww.png; sourceTree = "<group>"; };
+		DF689E5C21068C960056361E /* rdrdrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rdrdrd.png; path = ../../rdrdrd.png; sourceTree = "<group>"; };
+		DF689E5E21068D250056361E /* yllllllllw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yllllllllw.png; path = ../../yllllllllw.png; sourceTree = "<group>"; };
+		DF6E6D90210786840049BAB1 /* instagram_gradient_wallpaper_AW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = instagram_gradient_wallpaper_AW.jpg; path = ../../instagram_gradient_wallpaper_AW.jpg; sourceTree = "<group>"; };
+		DF6E6D92210786CF0049BAB1 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../images.jpeg; sourceTree = "<group>"; };
+		DF6E6D942107A94B0049BAB1 /* horizontalline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizontalline.png; path = ../../horizontalline.png; sourceTree = "<group>"; };
+		DF6E6D962107AC380049BAB1 /* -Email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "-Email.png"; path = "../../-Email.png"; sourceTree = "<group>"; };
+		DF6E6D972107AC380049BAB1 /* 111588_password_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 111588_password_512x512.png; path = ../../111588_password_512x512.png; sourceTree = "<group>"; };
+		DF6E6D9A2107B3090049BAB1 /* Screen Shot 2018-07-24 at 12.18.11 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2018-07-24 at 12.18.11 PM.png"; path = "../../Screen Shot 2018-07-24 at 12.18.11 PM.png"; sourceTree = "<group>"; };
+		DF8232FE210301CA001BA094 /* camerx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camerx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF823301210301CA001BA094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF823303210301CA001BA094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF823306210301CA001BA094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF823308210301D7001BA094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF82330B210301D7001BA094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF82330D210301D7001BA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF823312210301D8001BA094 /* camerxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camerxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF823316210301D8001BA094 /* camerxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camerxTests.swift; sourceTree = "<group>"; };
+		DF823318210301D8001BA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF82331D210301D8001BA094 /* camerxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camerxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF823321210301D8001BA094 /* camerxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camerxUITests.swift; sourceTree = "<group>"; };
+		DF823323210301D8001BA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF82332F21030A17001BA094 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		DF8F85CF210913CB000C4806 /* flip_camera-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flip_camera-512.png"; path = "../../flip_camera-512.png"; sourceTree = "<group>"; };
+		DF8F85D121091431000C4806 /* ede.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ede.png; path = ../../ede.png; sourceTree = "<group>"; };
+		DF8F85D321091591000C4806 /* qwe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qwe.png; path = ../../qwe.png; sourceTree = "<group>"; };
+		DF8F85D5210A4377000C4806 /* LogoMakr_9mRlok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoMakr_9mRlok.png; path = ../../LogoMakr_9mRlok.png; sourceTree = "<group>"; };
+		DFCBBCE6210D0DE00089C124 /* yellowgradibtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowgradibtn.png; path = ../../yellowgradibtn.png; sourceTree = "<group>"; };
+		DFCBBCE7210D0DE10089C124 /* blugradibtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blugradibtn.png; path = ../../blugradibtn.png; sourceTree = "<group>"; };
+		DFCBBCE8210D0DE30089C124 /* redgradibtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redgradibtn.png; path = ../../redgradibtn.png; sourceTree = "<group>"; };
+		E17609CD101778A557F392CB /* Pods-camerx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camerx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-camerx/Pods-camerx.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8232FB210301CA001BA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB28344B899413E7440BD9F /* Pods_camerx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF82330F210301D8001BA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAC704E4BE4B824A762938E /* Pods_camerxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF82331A210301D8001BA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6AB7346F65CB756B7E1451 /* Pods_camerxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A966CC7956CFCD1B11FD36FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E17609CD101778A557F392CB /* Pods-camerx.debug.xcconfig */,
+				0CC7D0EF594B9DF93848F3D2 /* Pods-camerx.release.xcconfig */,
+				19ED6AAA9B3A7543FDDAF1E8 /* Pods-camerxTests.debug.xcconfig */,
+				D3DDBF1BAC5BD5565D9A6CBD /* Pods-camerxTests.release.xcconfig */,
+				3C47BF594AF880641A5AA9FD /* Pods-camerxUITests.debug.xcconfig */,
+				71B1D9388BBB3746750A55D5 /* Pods-camerxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF8232F5210301CA001BA094 = {
+			isa = PBXGroup;
+			children = (
+				DF823300210301CA001BA094 /* camerx */,
+				DF823315210301D8001BA094 /* camerxTests */,
+				DF823320210301D8001BA094 /* camerxUITests */,
+				DF8232FF210301CA001BA094 /* Products */,
+				A966CC7956CFCD1B11FD36FE /* Pods */,
+				E9396681A39DAE79E5E94241 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8232FF210301CA001BA094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8232FE210301CA001BA094 /* camerx.app */,
+				DF823312210301D8001BA094 /* camerxTests.xctest */,
+				DF82331D210301D8001BA094 /* camerxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF823300210301CA001BA094 /* camerx */ = {
+			isa = PBXGroup;
+			children = (
+				DF823301210301CA001BA094 /* AppDelegate.swift */,
+				DF82332F21030A17001BA094 /* PreviewViewController.swift */,
+				DF823303210301CA001BA094 /* ViewController.swift */,
+				DF689E382105BE910056361E /* signUp_viewController.swift */,
+				DF689E3A2105BEA50056361E /* login_ViewController.swift */,
+				DF823305210301CA001BA094 /* Main.storyboard */,
+				DF823308210301D7001BA094 /* Assets.xcassets */,
+				DFCBBCE7210D0DE10089C124 /* blugradibtn.png */,
+				DFCBBCE8210D0DE30089C124 /* redgradibtn.png */,
+				DFCBBCE6210D0DE00089C124 /* yellowgradibtn.png */,
+				DF8F85D5210A4377000C4806 /* LogoMakr_9mRlok.png */,
+				DF8F85D321091591000C4806 /* qwe.png */,
+				DF8F85D121091431000C4806 /* ede.png */,
+				DF8F85CF210913CB000C4806 /* flip_camera-512.png */,
+				DF6E6D9A2107B3090049BAB1 /* Screen Shot 2018-07-24 at 12.18.11 PM.png */,
+				DF6E6D962107AC380049BAB1 /* -Email.png */,
+				DF6E6D972107AC380049BAB1 /* 111588_password_512x512.png */,
+				DF6E6D942107A94B0049BAB1 /* horizontalline.png */,
+				DF6E6D92210786CF0049BAB1 /* images.jpeg */,
+				DF6E6D90210786840049BAB1 /* instagram_gradient_wallpaper_AW.jpg */,
+				DF689E5E21068D250056361E /* yllllllllw.png */,
+				DF689E5C21068C960056361E /* rdrdrd.png */,
+				DF689E5A21068C150056361E /* blueww.png */,
+				DF689E5821068B920056361E /* bluew.png */,
+				DF689E5421068A1B0056361E /* bbby.png */,
+				DF689E5621068A550056361E /* bbby.png */,
+				DF689E50210689290056361E /* bstblu.png */,
+				DF689E4E210689280056361E /* bstrd.png */,
+				DF689E4F210689280056361E /* bsttllw.png */,
+				DF689E48210688530056361E /* bttrblu.png */,
+				DF689E49210688540056361E /* bttrrd.png */,
+				DF689E4A210688590056361E /* bttryllw.png */,
+				DF689E45210651BA0056361E /* blue-1 (dragged).tiff */,
+				DF689E44210651BA0056361E /* red.png */,
+				DF689E4221064EBE0056361E /* yellow-1 (dragged).tiff */,
+				DF689E3D21064D470056361E /* blue.png */,
+				DF689E3C21064D460056361E /* red.png */,
+				DF689E3E21064D470056361E /* yellow.png */,
+				DF689E2A2105B14E0056361E /* sign-check-icon.png */,
+				DF689E2B2105B14E0056361E /* 450px-White_X_in_red_background.svg.png */,
+				DF82330A210301D7001BA094 /* LaunchScreen.storyboard */,
+				DF82330D210301D7001BA094 /* Info.plist */,
+				DF689E2E2105B7760056361E /* GoogleService-Info.plist */,
+			);
+			path = camerx;
+			sourceTree = "<group>";
+		};
+		DF823315210301D8001BA094 /* camerxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF823316210301D8001BA094 /* camerxTests.swift */,
+				DF823318210301D8001BA094 /* Info.plist */,
+			);
+			path = camerxTests;
+			sourceTree = "<group>";
+		};
+		DF823320210301D8001BA094 /* camerxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF823321210301D8001BA094 /* camerxUITests.swift */,
+				DF823323210301D8001BA094 /* Info.plist */,
+			);
+			path = camerxUITests;
+			sourceTree = "<group>";
+		};
+		E9396681A39DAE79E5E94241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F2DB15D656D2BA91BD367BD /* Pods_camerx.framework */,
+				5D306B2E6DCD5AE57F895979 /* Pods_camerxTests.framework */,
+				72A3B4CECC12C050AF17B663 /* Pods_camerxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8232FD210301CA001BA094 /* camerx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF823326210301D8001BA094 /* Build configuration list for PBXNativeTarget "camerx" */;
+			buildPhases = (
+				C8CECAA9E6773E86C7818FF3 /* [CP] Check Pods Manifest.lock */,
+				DF8232FA210301CA001BA094 /* Sources */,
+				DF8232FB210301CA001BA094 /* Frameworks */,
+				DF8232FC210301CA001BA094 /* Resources */,
+				328EFFC52349EAAD749F738C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = camerx;
+			productName = camerx;
+			productReference = DF8232FE210301CA001BA094 /* camerx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF823311210301D8001BA094 /* camerxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF823329210301D8001BA094 /* Build configuration list for PBXNativeTarget "camerxTests" */;
+			buildPhases = (
+				4F0BA150E21741DEDE26EBD0 /* [CP] Check Pods Manifest.lock */,
+				DF82330E210301D8001BA094 /* Sources */,
+				DF82330F210301D8001BA094 /* Frameworks */,
+				DF823310210301D8001BA094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF823314210301D8001BA094 /* PBXTargetDependency */,
+			);
+			name = camerxTests;
+			productName = camerxTests;
+			productReference = DF823312210301D8001BA094 /* camerxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF82331C210301D8001BA094 /* camerxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF82332C210301D8001BA094 /* Build configuration list for PBXNativeTarget "camerxUITests" */;
+			buildPhases = (
+				B53403BA6BBAB43ADCDD4370 /* [CP] Check Pods Manifest.lock */,
+				DF823319210301D8001BA094 /* Sources */,
+				DF82331A210301D8001BA094 /* Frameworks */,
+				DF82331B210301D8001BA094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF82331F210301D8001BA094 /* PBXTargetDependency */,
+			);
+			name = camerxUITests;
+			productName = camerxUITests;
+			productReference = DF82331D210301D8001BA094 /* camerxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8232F6210301CA001BA094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = HGPMac62;
+				TargetAttributes = {
+					DF8232FD210301CA001BA094 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DF823311210301D8001BA094 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF8232FD210301CA001BA094;
+					};
+					DF82331C210301D8001BA094 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF8232FD210301CA001BA094;
+					};
+				};
+			};
+			buildConfigurationList = DF8232F9210301CA001BA094 /* Build configuration list for PBXProject "camerx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8232F5210301CA001BA094;
+			productRefGroup = DF8232FF210301CA001BA094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8232FD210301CA001BA094 /* camerx */,
+				DF823311210301D8001BA094 /* camerxTests */,
+				DF82331C210301D8001BA094 /* camerxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8232FC210301CA001BA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCBBCEB210D0DE40089C124 /* redgradibtn.png in Resources */,
+				DFCBBCEA210D0DE40089C124 /* blugradibtn.png in Resources */,
+				DF689E4B2106885A0056361E /* bttrblu.png in Resources */,
+				DF6E6D91210786850049BAB1 /* instagram_gradient_wallpaper_AW.jpg in Resources */,
+				DF689E5B21068C160056361E /* blueww.png in Resources */,
+				DF689E2D2105B14E0056361E /* 450px-White_X_in_red_background.svg.png in Resources */,
+				DF689E4321064EBF0056361E /* yellow-1 (dragged).tiff in Resources */,
+				DF689E4D2106885A0056361E /* bttryllw.png in Resources */,
+				DF689E52210689290056361E /* bsttllw.png in Resources */,
+				DF689E4C2106885A0056361E /* bttrrd.png in Resources */,
+				DF8F85D221091432000C4806 /* ede.png in Resources */,
+				DF8F85D6210A4377000C4806 /* LogoMakr_9mRlok.png in Resources */,
+				DF689E5721068A550056361E /* bbby.png in Resources */,
+				DF689E4121064D470056361E /* yellow.png in Resources */,
+				DF689E2C2105B14E0056361E /* sign-check-icon.png in Resources */,
+				DF8F85D421091592000C4806 /* qwe.png in Resources */,
+				DF689E2F2105B7760056361E /* GoogleService-Info.plist in Resources */,
+				DF6E6D992107AC390049BAB1 /* 111588_password_512x512.png in Resources */,
+				DFCBBCE9210D0DE40089C124 /* yellowgradibtn.png in Resources */,
+				DF689E53210689290056361E /* bstblu.png in Resources */,
+				DF689E5921068B920056361E /* bluew.png in Resources */,
+				DF6E6D952107A94B0049BAB1 /* horizontalline.png in Resources */,
+				DF689E4021064D470056361E /* blue.png in Resources */,
+				DF82330C210301D7001BA094 /* LaunchScreen.storyboard in Resources */,
+				DF6E6D9B2107B30A0049BAB1 /* Screen Shot 2018-07-24 at 12.18.11 PM.png in Resources */,
+				DF689E5521068A1C0056361E /* bbby.png in Resources */,
+				DF6E6D982107AC390049BAB1 /* -Email.png in Resources */,
+				DF689E3F21064D470056361E /* red.png in Resources */,
+				DF689E5F21068D250056361E /* yllllllllw.png in Resources */,
+				DF689E51210689290056361E /* bstrd.png in Resources */,
+				DF689E46210651BA0056361E /* red.png in Resources */,
+				DF6E6D93210786D00049BAB1 /* images.jpeg in Resources */,
+				DF689E47210651BA0056361E /* blue-1 (dragged).tiff in Resources */,
+				DF8F85D0210913CC000C4806 /* flip_camera-512.png in Resources */,
+				DF823309210301D7001BA094 /* Assets.xcassets in Resources */,
+				DF823307210301CA001BA094 /* Main.storyboard in Resources */,
+				DF689E5D21068C960056361E /* rdrdrd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF823310210301D8001BA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF82331B210301D8001BA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		328EFFC52349EAAD749F738C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-camerx/Pods-camerx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-camerx/Pods-camerx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0BA150E21741DEDE26EBD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-camerxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53403BA6BBAB43ADCDD4370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-camerxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8CECAA9E6773E86C7818FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-camerx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8232FA210301CA001BA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF823304210301CA001BA094 /* ViewController.swift in Sources */,
+				DF823302210301CA001BA094 /* AppDelegate.swift in Sources */,
+				DF689E392105BE910056361E /* signUp_viewController.swift in Sources */,
+				DF689E3B2105BEA50056361E /* login_ViewController.swift in Sources */,
+				DF82333021030A17001BA094 /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF82330E210301D8001BA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF823317210301D8001BA094 /* camerxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF823319210301D8001BA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF823322210301D8001BA094 /* camerxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF823314210301D8001BA094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8232FD210301CA001BA094 /* camerx */;
+			targetProxy = DF823313210301D8001BA094 /* PBXContainerItemProxy */;
+		};
+		DF82331F210301D8001BA094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8232FD210301CA001BA094 /* camerx */;
+			targetProxy = DF82331E210301D8001BA094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF823305210301CA001BA094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF823306210301CA001BA094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF82330A210301D7001BA094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF82330B210301D7001BA094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF823324210301D8001BA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF823325210301D8001BA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF823327210301D8001BA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17609CD101778A557F392CB /* Pods-camerx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W47635PV65;
+				INFOPLIST_FILE = camerx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elijah.w0.camerx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF823328210301D8001BA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC7D0EF594B9DF93848F3D2 /* Pods-camerx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W47635PV65;
+				INFOPLIST_FILE = camerx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elijah.w0.camerx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF82332A210301D8001BA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19ED6AAA9B3A7543FDDAF1E8 /* Pods-camerxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = camerxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elijah.w0.camerxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camerx.app/camerx";
+			};
+			name = Debug;
+		};
+		DF82332B210301D8001BA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DDBF1BAC5BD5565D9A6CBD /* Pods-camerxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = camerxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elijah.w0.camerxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camerx.app/camerx";
+			};
+			name = Release;
+		};
+		DF82332D210301D8001BA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C47BF594AF880641A5AA9FD /* Pods-camerxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = camerxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elijah.w0.camerxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = camerx;
+			};
+			name = Debug;
+		};
+		DF82332E210301D8001BA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71B1D9388BBB3746750A55D5 /* Pods-camerxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = camerxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elijah.w0.camerxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = camerx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8232F9210301CA001BA094 /* Build configuration list for PBXProject "camerx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF823324210301D8001BA094 /* Debug */,
+				DF823325210301D8001BA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF823326210301D8001BA094 /* Build configuration list for PBXNativeTarget "camerx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF823327210301D8001BA094 /* Debug */,
+				DF823328210301D8001BA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF823329210301D8001BA094 /* Build configuration list for PBXNativeTarget "camerxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF82332A210301D8001BA094 /* Debug */,
+				DF82332B210301D8001BA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF82332C210301D8001BA094 /* Build configuration list for PBXNativeTarget "camerxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF82332D210301D8001BA094 /* Debug */,
+				DF82332E210301D8001BA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8232F6210301CA001BA094 /* Project object */;
+}
